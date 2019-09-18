@@ -87,7 +87,7 @@ public abstract class PlateNumDialog {
                 }
             }
         });
-        this.dialog = new Dialog(this.context);
+        this.dialog = new Dialog(this.context,R.style.tran_dialog);
         this.dialog.setContentView(view);
         Window dialogWindow = this.dialog.getWindow();
         dialogWindow.setGravity(83);
